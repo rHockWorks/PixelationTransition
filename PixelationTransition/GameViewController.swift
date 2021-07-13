@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  PixelationTransition
 //
-//  Created by 🐨 on 13/07/2021.
+//  Created by Rudolph Hock on 13/07/2021.
 //  Copyright © 2021 rHockWorks. All rights reserved.
 //
 
@@ -17,9 +17,9 @@ class GameViewController: UIViewController {
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
+            if let scene = Scene1(fileNamed: "Scene1") {
                 // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
+                //scene.scaleMode = .aspectFill
                 
                 // Present the scene
                 view.presentScene(scene)

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PixelationTransition
 //
-//  Created by 🐨 on 13/07/2021.
+//  Created by Rudolph Hock on 13/07/2021.
 //  Copyright © 2021 rHockWorks. All rights reserved.
 //
 
